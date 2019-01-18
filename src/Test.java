@@ -2,9 +2,12 @@ public class Test {
 
     public static void main (String[] args){
 
-        byte[] b = {0xa, 0x36};
+        DATA_LENGTH dl = new DATA_LENGTH();
 
-        System.out.println(Utils.toDec(b));
+        dl.getForm(0x09);
+
+        dl.print();
+
     }
 
 }

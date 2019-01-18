@@ -6,7 +6,4 @@ public final class Parser {
         //CONTENT = байты содержимого
         //END     = байты конца содержимого
 
-
-
-
 }
